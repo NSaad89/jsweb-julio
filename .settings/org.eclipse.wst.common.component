@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jsweb-julio">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/dao/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/dao/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/domain/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/domain/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ui/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/ui/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/webapp/src/main/java"/>
+        <property name="context-root" value="jsweb-julio"/>
+        <property name="java-output-path" value="/jsweb-julio/bin"/>
+    </wb-module>
+</project-modules>
