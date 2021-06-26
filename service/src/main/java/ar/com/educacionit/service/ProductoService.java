@@ -16,5 +16,7 @@ public interface ProductoService {
 	public Producto crearProducto (Producto producto) throws ServiceException;
 
 	public Producto eliminar(Long id) throws ServiceException;
+
+	public Producto obtenerProductoPorCodigo(String codigo) throws ServiceException;
 	
 }

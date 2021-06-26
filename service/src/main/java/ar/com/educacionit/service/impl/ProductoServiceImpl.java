@@ -90,4 +90,18 @@ public class ProductoServiceImpl implements ProductoService {
 		
 	}
 
+	@Override
+	public Producto obtenerProductoPorCodigo(String codigo) throws ServiceException {
+		
+		try {
+			
+			return this.productoDao.getProductoByCodigo(codigo);
+			
+		} catch (Exception e) {
+			
+			throw new ServiceException ("Error consultando producto con Código: " + codigo, e);
+		}
+		
+	}
+
 }
